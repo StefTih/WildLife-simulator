@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\r\n\ A\ representation\ of\ a\ plant.\ They\ do\ not\ move,\r\n\ they\ grow\ at\ a\ fixed\ probability\ on\ their\ own,\ and\r\n\ provide\ food\ for\ the\ herbivores\ in\ the\ simulation.\r\n\r\n\ @author\ David\ J.\ Barnes,\ Michael\ K\u00F6lling,\ Maksymilian\ Sekula\ and\ Tihomir\ Stefanov\r\n\ @version\ 03/03/2021\r\n
+comment1.params=randomAge\ field\ location\ timer
+comment1.target=Plant(boolean,\ Field,\ Location,\ Timer)
+comment1.text=\r\n\ Constructor\ method\r\n\r\n\ @param\ field\ \ \ \ The\ Field\ object\ of\ the\ simulation\r\n\ @param\ location\ The\ location\ of\ the\ plant\ within\ the\ field\r\n
+comment2.params=newPlants
+comment2.target=void\ kingdomSpecificBehaviour(java.util.List)
+comment2.text=\r\n\ This\ is\ what\ the\ plant\ does\ most\ of\ the\ time\ -\ it\ grows.\r\n\ After\ every\ step,\ the\ plant\ can\ reproduce\ by\ spreading\ seeds\r\n\ to\ locations\ around\ it,\ which\ will\ grow\ into\ plants.\r\n\r\n\ @param\ newPlants\ A\ list\ to\ return\ newly\ born\ animals\ of\ subtype\ Herbivores.\r\n
+comment3.params=newOrganisms
+comment3.target=void\ reproduce(java.util.List)
+comment3.text=\r\n\ Add\ offspring\ of\ the\ organism\ to\ a\ list\r\n\r\n\ @param\ newOrganisms\ A\ list\ of\ type\ Organism\ to\ add\ new\ plants\ to\r\n
+comment4.params=
+comment4.target=int\ determineNumberOfOffspring()
+comment4.text=\r\n\ Calculate\ the\ number\ of\ plants\ to\ grow\ around\ the\ existing\ plant\r\n\r\n\ @return\ An\ integer\ with\ the\ number\ of\ plants\ that\ will\ grow\ around\r\n\ the\ existing\ plant\ (may\ be\ zero)\r\n
+comment5.params=
+comment5.target=double\ getGrowthProbability()
+comment5.text=\r\n\ Returns\ the\ probability\ of\ grass\ growing.\r\n\r\n\ @return\ A\ double\ precision\ floating\ point\ value\r\n\ containing\ the\ probability\ that\ the\ plant\ will\r\n\ grow\ new\ seeds\ around\ it.\r\n
+comment6.params=
+comment6.target=int\ getFoodValue()
+comment6.text=\r\n\ Obtains\ the\ nutritional\ value\ of\ the\ plant,\r\n\ essentially\ the\ number\ of\ steps\ that\ a\ plant-eater\r\n\ can\ survive\ before\ needing\ to\ eat\ again\r\n\r\n\ @return\ An\ integer\ containing\ the\ food/nutritional\ value\ of\ the\ plant\r\n
+comment7.params=
+comment7.target=int\ getMaxSeeds()
+comment7.text=\r\n\ Obtains\ the\ maximum\ number\ of\ seeds\ that\ the\ plant\ can\ spread\r\n\r\n\ @return\ An\ integer\ representing\ the\ maximum\ number\ of\ seeds\r\n\ that\ the\ plant\ can\ produce\r\n
+numComments=8

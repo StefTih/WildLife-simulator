@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Herbivore
+comment0.text=\r\n\ A\ class\ representing\ the\ functionality\ unique\ to\ herbivores.\r\n\ They\ eat\ plants,\ unlike\ predators.\r\n\r\n\ @author\ David\ J.\ Barnes,\ Michael\ K\u00F6lling,\ Maksymilian\ Sekula\ and\ Tihomir\ Stefanov\r\n\ @version\ 03/03/2021\r\n
+comment1.params=randomAge\ randomFoodLevel\ field\ location\ timer
+comment1.target=Herbivore(boolean,\ boolean,\ Field,\ Location,\ Timer)
+comment1.text=\r\n\ Constructor\ class\r\n\r\n\ @param\ randomAge\ Whether\ the\ animal\ is\ created\ with\ a\ randomly-generated\ age,\ or\ not\r\n\ @param\ randomFoodLevel\ Whether\ the\ animal\ is\ created\ with\ a\ randomly-generated\ hunger,\ or\ not\r\n\ @param\ field\ A\ reference\ to\ field\ object\ of\ the\ simulation\ (The\ field\ in\ which\ the\ animal\ is\ in)\r\n\ @param\ location\ The\ Location\ object\ representing\ the\ location\ of\ the\ organism\ within\ the\ field\r\n\ @param\ timer\ A\ reference\ to\ the\ Timer\ object\ used\ by\ the\ simulation\r\n
+comment2.params=placeOfFood\ food
+comment2.target=boolean\ hasEaten(Location,\ java.lang.Object)
+comment2.text=\r\n\ Checks\ whether\ the\ herbivore\ can\ eat\ a\ plants\ at\ a\ location\ before\ moving\ to\ that\ location.\r\n\r\n\ @param\ placeOfFood\ Location\ object\ representing\ where\ the\ organism\ is\ located.\r\n\ @param\ food\ The\ organism\ object\ in\ the\ set\ location.\r\n\ @return\ true\ if\ the\ herbivore\ has\ eaten,\ false\ otherwise.\r\n
+comment3.params=
+comment3.target=int\ getFoodValue()
+comment3.text=\r\n\ Returns\ the\ nutritional\ value\ of\ the\ animal\r\n\r\n\ @return\ The\ number\ of\ steps\ that\ an\ animal-eater\r\n\ can\ move\ without\ needing\ to\ eat\ again\ as\ an\ integer\r\n
+numComments=4
